@@ -1,0 +1,85 @@
+# dependencies
+node_modules/
+.m2/
+
+# testing
+coverage
+
+# Terraform
+.terraform/
+tplan
+tfplan
+*.tfstate*
+
+# misc
+.DS_Store
+.env.development.local
+.env.test.local
+.env.production.local
+.webpack
+.serverless
+.vscode/
+
+# Virtualenv
+.venv*/
+
+# Python
+**/__pycache__/
+**/*.egg-info/
+
+### Java template
+# Compiled class file
+*.class
+
+# Intellij project files
+*.iml
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.tar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse #
+.settings/
+.project
+.metadata 
+
+# Intellij #
+.idea/
+.classpath
+.factorypath
+
+# MS Cruft
+~*
+*.ps1
+*.bak*
+*tunneling*.sh
+
+# Secrets
+**/secrets/
+
+# Local build
+**/build/
+!repoctl/lib/build/
+**/tmp/
+
+*.ignore
+./.dockerignore
+
+# Generated docs
+docs/generated/
+
+# DB Dumps
+data/dumps/
+
+experimentation/
