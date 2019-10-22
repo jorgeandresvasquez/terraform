@@ -37,4 +37,3 @@ if current_version:
     print(GLOBALS_PATH)
     subprocess.check_output(['git', 'commit', GLOBALS_PATH, '-m', 'bumped version to {}'.format(new_version)])
     subprocess.check_output(['git', 'tag', new_version])
-    subprocess.check_output(['git', 'push', '--follow-tags'])
